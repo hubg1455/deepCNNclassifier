@@ -44,7 +44,7 @@ for filepath in list_of_files:
         with open(filepath,'w') as f:
             pass
 
-            logging.info(f"Ctreating file path:{filepath}")
+            logging.info(f"Ctreating empty file:{filepath}")
 
     else:
         logging.info(f"{filename} name already exist")
